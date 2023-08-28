@@ -4,11 +4,11 @@
 
 <center>
 <div style="display: flex; align-items: center; justify-content: center;">
-    <img src="https://laravel.com/img/logomark.min.svg" alt="Logo do Laravel" width="150">
-    <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="Logo do MySQL" width="150">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="150">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="150" />
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" width= "150"/>      
+    <img src="https://laravel.com/img/logomark.min.svg" alt="Logo do Laravel" width="160">
+    <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="Logo do MySQL" width="160">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="160">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="160" />
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" width= "160"/>      
 </div>
 </center>
 <br>
@@ -27,7 +27,7 @@ Passos de Instalação
 
 Clone o repositório para o seu sistema:
 
-    git clone https://github.com/seu-usuario/setup-laravel_docker_mysql.git
+    git clone https://github.com/NatoRodrigues/setup-laravel_docker_mysql.git
 
 Crie um novo projeto Laravel dentro do diretório clonado:
 
