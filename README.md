@@ -54,15 +54,44 @@ Atualiza a configuração em cache do Laravel para melhorar o desempenho:
 
     docker exec setup-php php artisan config:cache
 
-Instala as dependências do projeto Laravel usando o Composer. O Composer é um gerenciador de pacotes PHP amplamente utilizado:
+Instale as dependências do projeto Laravel usando o Composer. O Composer é um gerenciador de pacotes PHP amplamente utilizado:
 
     docker exec setup-php composer install
 
-Executa as migrações do banco de dados definidas no projeto Laravel. Isso cria as tabelas e relacionamentos no banco de dados configurado:
+Execute as migrações do banco de dados definidas no projeto Laravel. Isso cria as tabelas e relacionamentos no banco de dados configurado:
 
     docker exec setup-php php artisan migrate
 
+![image](https://github.com/NatoRodrigues/setup-laravel_docker_mysql/assets/99916443/9f8220ff-c470-4444-90a8-f265dcfe6006)
 
+![image](https://github.com/NatoRodrigues/setup-laravel_docker_mysql/assets/99916443/54618df3-71da-4f70-9513-011e9afd102f)
+
+
+Pronto, agora você pode armazenar dados no seu ambiente de desenvolvimento laravel.
+
+Acesse seu banco de dados na porta 8888.
+    
+    host: user
+    senha: password
+
+![image](https://github.com/NatoRodrigues/setup-laravel_docker_mysql/assets/99916443/118772ea-c036-40e1-80c7-98f7e8dee6ac)
+<br>
+<br>
+usando o comando docker ps podemos ter acesso a todos os containeres ativos e suas respectivas portas
+
+    docker ps
+
+![image](https://github.com/NatoRodrigues/setup-laravel_docker_mysql/assets/99916443/5fc4429e-eea4-4ee5-8905-cdcb187eacbc)
+<br>
+<br>
+
+Acesse seu laravel agora na porta 8080 que é a porta onde nosso servidor nginx está apontando.
+
+![image](https://github.com/NatoRodrigues/setup-laravel_docker_mysql/assets/99916443/00d0345b-15f4-4b65-b3fe-2833a999d506)
+
+Pronto, seu ambiente está configurado.
+<br>
+<br>
 
 Uso e Desenvolvimento
 
