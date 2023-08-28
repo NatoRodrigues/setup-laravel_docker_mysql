@@ -50,14 +50,14 @@ Configuração do Ambiente Laravel
 
 Execute os seguintes comandos dentro do contêiner PHP para configurar o ambiente Laravel:
 
-Atualiza a configuração em cache do Laravel para melhorar o desempenho:
+Atualize a configuração em cache do Laravel para melhorar o desempenho:
 
     docker exec setup-php php artisan config:cache
-
+<br>
 Instale as dependências do projeto Laravel usando o Composer. O Composer é um gerenciador de pacotes PHP amplamente utilizado:
 
     docker exec setup-php composer install
-
+<br>
 Execute as migrações do banco de dados definidas no projeto Laravel. Isso cria as tabelas e relacionamentos no banco de dados configurado:
 
     docker exec setup-php php artisan migrate
@@ -66,7 +66,7 @@ Execute as migrações do banco de dados definidas no projeto Laravel. Isso cria
 
 ![image](https://github.com/NatoRodrigues/setup-laravel_docker_mysql/assets/99916443/54618df3-71da-4f70-9513-011e9afd102f)
 
-
+<br>
 Pronto, agora você pode armazenar dados no seu ambiente de desenvolvimento laravel.
 
 Acesse seu banco de dados na porta 8888.
