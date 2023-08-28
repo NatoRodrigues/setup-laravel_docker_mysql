@@ -4,7 +4,7 @@
 
 <center>
 <div style="display: flex; align-items: center; justify-content: center;">
-    <img src="https://laravel.com/img/logomark.min.svg" alt="Logo do Laravel" width="120">
+    <img src="https://laravel.com/img/logomark.min.svg" alt="Logo do Laravel" width="150">
     <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="Logo do MySQL" width="150">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="150">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nginx/nginx-original.svg" width="150" />
